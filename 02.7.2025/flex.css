@@ -1,0 +1,15 @@
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+.flex-item{
+    color:rgb(212, 205, 205);
+    background-color: rgb(209, 6, 47);
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+}
+.flex-item:nth-child(6){
+    align-self: flex-end;
+}
